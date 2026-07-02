@@ -1,0 +1,3 @@
+display_name: Agent Continuity
+short_description: Preserve long-running agent task state and rescue stalled agents with handoff.md.
+default_prompt: "Use agent-continuity for this task. Maintain or create handoff.md so another agent can continue from the current state. If the task is stalled, use rescue mode; otherwise use checkpoint mode."

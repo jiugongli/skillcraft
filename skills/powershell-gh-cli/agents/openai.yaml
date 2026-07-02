@@ -1,0 +1,4 @@
+interface:
+  display_name: "PowerShell GH CLI"
+  short_description: "Safer GitHub CLI commands in PowerShell."
+  default_prompt: "Use $powershell-gh-cli when running GitHub CLI commands from PowerShell."

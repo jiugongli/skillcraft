@@ -1,0 +1,68 @@
+{
+  "title": "ArtifactQualityScore",
+  "type": "object",
+  "required": [
+    "score",
+    "threshold",
+    "mode",
+    "dimensions",
+    "issues",
+    "rework_tasks"
+  ],
+  "properties": {
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "threshold": {
+      "type": "string",
+      "enum": [
+        "ready",
+        "usable",
+        "draft",
+        "fail"
+      ]
+    },
+    "mode": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "points",
+          "max_points",
+          "evidence"
+        ],
+        "properties": {
+          "points": {
+            "type": "integer"
+          },
+          "max_points": {
+            "type": "integer"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rework_tasks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

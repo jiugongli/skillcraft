@@ -1,0 +1,4 @@
+interface:
+  display_name: "Asana MCP for Codex"
+  short_description: "Use Asana V2 MCP safely from Codex."
+  default_prompt: "Use $asana-mcp-codex to configure or troubleshoot Asana V2 MCP in Codex."

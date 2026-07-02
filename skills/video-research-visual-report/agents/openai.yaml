@@ -1,0 +1,3 @@
+display_name: Video Research Visual Report
+short_description: Turn a video into a researched text review plus visual report.
+default_prompt: "Use the video-research-visual-report workflow on this video: [paste link]. Produce a text review, choose an appropriate visual output format, and include source links and output paths."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Windows PowerShell Safety"
+  short_description: "Safer Windows PowerShell commands for Codex agents."
+  default_prompt: "Use $windows-powershell-safety when running non-trivial Windows PowerShell commands."
